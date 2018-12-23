@@ -1,0 +1,112 @@
+:root {
+  --brown: #6A5A5B;
+  --lightbrown: #ccb7b8;
+  --green: #C0D2C6;
+  --mediumgreen: #758279;
+  --darkgreen: #58615b;
+  --blue: #5C6884;
+}
+
+/* general */
+body {
+  color: var(--brown);;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+/* container */
+#container {
+  width: 100vw;
+}
+
+.page {
+  height: 100vh;
+  width: 80vw;
+}
+
+.textSection {
+  width: 33%;
+  height: 70vh;
+  z-index: 2;
+}
+
+.title {
+  border-bottom: 0.2em solid var(--green);
+  width: 20em;
+  padding-bottom: 3em;
+  margin-bottom: 3em;
+}
+
+.title p {
+  font-size: 8em;
+  font-weight: 700;
+  margin: 0;
+  line-height: 0.8;
+  letter-spacing: 0.2em;
+}
+
+.text {
+  width: 24em;
+}
+
+.textColored {
+  width: 50em;
+}
+
+.text p {
+  margin: 0;
+  line-height: 1.8;
+  font-size: 1.2em;
+  color: var(--darkgreen);
+}
+
+.readmore {
+  font-family: 'Roboto', sans-serif;
+  color: var(--blue);
+}
+
+.picSection {
+  width: 66%;
+  height: 70vh;
+  position: relative;
+}
+
+.picSection img {
+  width: 48em;
+  position: absolute;
+  top: 4em;
+  left: 0;
+  opacity: 0.5;
+}
+
+.colorSection {
+  background-color: var(--mediumgreen);
+  margin: 3em;
+  padding: 3em;
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+}
+
+.colorSection p {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.colorSection img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.picSection img.leftImg {
+  width: 40em;
+}
+
+.rightText {
+  width: 30%;
+}
+
+.rightHeading p {
+  font-size: 5em;
+}
